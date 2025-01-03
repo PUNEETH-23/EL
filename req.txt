@@ -1,5 +1,1 @@
-pip install ultralytics
-pip install openCV-python
-pip install numpy
-pip install streamlit
-pip install PIL
+
