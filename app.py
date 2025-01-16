@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load the trained model
-model = YOLO(r'C:\Users\Puneeth Kumar\runs\detect\train\weights\best.pt')  # Adjust the path as needed
+model = YOLO(r'best.pt')  # Adjust the path as needed
 
 # Streamlit UI Configuration
 st.set_page_config(page_title="Rice Detection with YOLO", page_icon="🌾", layout="wide")
